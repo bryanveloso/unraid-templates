@@ -11,7 +11,7 @@
   <Category />
   <WebUI />
   <TemplateURL />
-  <Icon />
+  <Icon>https://rathena.org/board/uploads/monthly_2019_10/msapplication-square70x70logo.png</Icon>
   <ExtraParams />
   <PostArgs />
   <Networking>
