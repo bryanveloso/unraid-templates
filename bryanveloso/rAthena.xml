@@ -1,19 +1,16 @@
-<?xml version="1.0" ?>
-<Container version="2">
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <TemplateURL>https://raw.githubusercontent.com/bryanveloso/unraid-templates/main/bryanveloso/rAthena.xml</TemplateURL>
+  <Beta>false</Beta>
+  <Category>GameServers:</Category>
   <Name>rAthena</Name>
-  <Repository>bryanveloso/rathena</Repository>
-  <Registry>https://docker.io/bryanveloso/rathena/</Registry>
-  <Network>bridge</Network>
-  <MyIP />
-  <Privileged>false</Privileged>
-  <Project>https://github.com/rathena/rathena</Project>
   <Overview>rAthena is an open-source cross-platform MMORPG server.</Overview>
-  <Category />
-  <WebUI />
-  <TemplateURL />
-  <Icon>https://rathena.org/board/uploads/monthly_2019_10/msapplication-square70x70logo.png</Icon>
-  <ExtraParams />
-  <PostArgs />
+  <Registry>https://registry.hub.docker.com/r/bryanveloso/rathena/</Registry>
+  <GitHub>https://github.com/bryanveloso/docker-rathena/</GitHub>
+  <Repository>bryanveloso/rathena</Repository>
+  <Project>https://github.com/rathena/rathena</Project>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
@@ -34,6 +31,6 @@
       </Port>
     </Publish>
   </Networking>
-  <Environment />
-  <Labels />  
-</Container>
+  <Icon>https://rathena.org/board/uploads/monthly_2019_10/msapplication-square70x70logo.png</Icon>
+  <ExtraParams></ExtraParams>
+</Containers>
