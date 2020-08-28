@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Date>2020-08-26</Date>
+  <Beta>False</Beta>
+  <Name>rAthena</Name>
+  <Project>https://github.com/rathena/rathena</Project>
+  <Overview>rAthena is an open-source cross-platform MMORPG server.</Overview>
+  <Registry>https://docker.io/bryanveloso/rathena/</Registry>
+  <GitHub>https://github.com/bryanveloso/docker-rathena</GitHub>
+  <Repository>bryanveloso/rathena</Repository>
+  <Privileged>false</Privileged>
+  <Environment />
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>6900</HostPort>
+        <ContainerPort>6900</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>6121</HostPort>
+        <ContainerPort>6121</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>5121</HostPort>
+        <ContainerPort>5121</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Network Default="bridge">bridge</Network>
+</Container>
