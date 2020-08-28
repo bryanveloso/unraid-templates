@@ -7,7 +7,7 @@
   <Overview>rAthena is an open-source cross-platform MMORPG server.</Overview>
   <Registry>https://registry.hub.docker.com/r/bryanveloso/rathena/</Registry>
   <GitHub>https://github.com/bryanveloso/docker-rathena/</GitHub>
-  <Repository>bryanveloso/rathena</Repository>
+  <Repository>bryanveloso/docker-rathena</Repository>
   <Project>https://github.com/rathena/rathena</Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
